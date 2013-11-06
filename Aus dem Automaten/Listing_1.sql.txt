@@ -1,0 +1,1 @@
+CREATE TABLE 'plant' (  'id' int(11) NOT NULL AUTO_INCREMENT,  'name' varchar(300) NOT NULL,  'location' varchar(400) NOT NULL,  'active' tinyint(1) NOT NULL,  'type' enum('blume','baum') NOT NULL,  PRIMARY KEY ('id'),  UNIQUE KEY 'id' ('id')) ENGINE=MyISAM AUTO_INCREMENT=75 DEFAULT CHARSET=latin1 AUTO_INCREMENT=75 ;

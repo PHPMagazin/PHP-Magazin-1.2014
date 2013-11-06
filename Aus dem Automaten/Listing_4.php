@@ -1,0 +1,1 @@
+$sql = "INSERT INTO plant(id, name, location, active, type) VALUES("  . (int) $id  . ", '" . mysql_real_escape_string($name)  . "', '" . mysql_real_escape_string($location)  . "', " .  (int) $active  . ", '" . mysql_real_escape_string($type)  . "')";  mysql_query($sql) or die('DB Insert Error');  header('Location: plant.php?ok=Done');  exit;
