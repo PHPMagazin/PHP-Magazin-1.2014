@@ -1,0 +1,1 @@
+class Shopware_Tests_Plugins_Frontend_SloganOfTheDayTest extends Enlight_Components_Test_Plugin_TestCase{  protected $plugin;  public function setUp()  {    parent::setUp();    $this->plugin = Shopware()->Plugins()->Frontend()->SloganOfTheDay();  }  public function Plugin()  {    return $this->plugin;  }  public function testPostDispatch()  {  }}
