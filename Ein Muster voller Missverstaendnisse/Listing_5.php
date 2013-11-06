@@ -1,0 +1,1 @@
+class SmsNotificationObserver{   public function update(Contract $contract)   {     if ($contract->isInTermination()) {      // ...       ... $contract->getTerminationDate() ...      // ...     }  }}

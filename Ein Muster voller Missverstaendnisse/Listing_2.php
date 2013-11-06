@@ -1,0 +1,1 @@
+class ContractWithSmsNotification extends Contract{   private $smsGateway;  public function __construct(SmsGateway $smsGateway)  {    $this->smsGateway = $smsGateway;  }  public function terminate(...)   {     parent::terminate(...);    $this->smsGateway->send(...);  }}

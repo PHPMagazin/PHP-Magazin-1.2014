@@ -1,0 +1,1 @@
+class ContractWithSmsNotification extends Contract{   public function terminate(...)   {     parent::terminate(...);    $this->sendSms(...);  }   private sendSMS(...)  {    // ...   }}

@@ -1,0 +1,1 @@
+class Contract{   private $observers = array();  public function attach(Observer $observer)   {     $this->observers[] = $observer;  }  private function notifyObservers()  {    foreach ($this->observers as $observer) {      $observer->update($this);    }  }}

@@ -1,0 +1,1 @@
+class CommunicativeContract extends Contract{   ...  public function terminate(...)   {     parent::terminate(...);    $this->smsGateway->send(...);     $this->emailGateway->send(...);  }}
