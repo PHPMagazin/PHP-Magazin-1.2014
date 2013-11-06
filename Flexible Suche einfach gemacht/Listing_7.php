@@ -1,0 +1,1 @@
+$filterTopicTomatoes = new \Elastica\Filter\Term();$filterTopicTomatoes->setTerm('topic', 'tomatoes');$filterTopicPeppers = new \Elastica\Filter\Term();$filterTopicPeppers->setTerm('topic', 'peppers');$filterOr = new \Elastica\Filter\BoolOr();$filterOr->addFilter($filterTopicTomatoes);$filterOr->addFilter($filterTopicPeppers);$query->setFilter($filterOr);

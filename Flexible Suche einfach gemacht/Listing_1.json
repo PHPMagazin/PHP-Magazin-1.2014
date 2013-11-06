@@ -1,0 +1,1 @@
+{  "ok" : true,  "status" : 200,  "name" : "Yondu",  "version" : {    "number" : "0.90.5",    "build_hash" : "5c38d6076448b899d758f29443329571e2522410",    "build_timestamp" : "2013-08-06T13:18:31Z",    "build_snapshot" : false,    "lucene_version" : "4.4"  },  "tagline" : "You Know, for Search"}

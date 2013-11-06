@@ -1,0 +1,1 @@
+$queryString  = new \Elastica\Query\QueryString();$queryString->setQuery('here about');$query = new \Elastica\Query();$query->setQuery($queryString);$hits = $resultSet->getTotalHits();$results = $resultSet->getResults();
