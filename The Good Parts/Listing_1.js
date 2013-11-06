@@ -1,0 +1,1 @@
+module.exports = function (hoodie, doneCallback) {  hoodie.task.on(    'add:email',    function(dbName, email) {      hoodie.sendEmail(email, function (error) {          if (error) {            hoodie.task.error(dbName, email, error);            return;          }          hoodie.task.success(dbName, email);      });    }  );doneCallback();};
