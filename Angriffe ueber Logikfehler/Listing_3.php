@@ -1,0 +1,1 @@
+if ( isset($_SESSION['target_id']) ){  // Nachricht an zuvor ausgewählten Benutzer senden  $target  = $_SESSION['target_id'];  $message = $_POST['message'];  send_message($target, $message);}else {  // Fehlermeldung "Kein Benutzer ausgewählt" ausgeben  ...}

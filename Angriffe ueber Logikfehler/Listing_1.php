@@ -1,0 +1,1 @@
+if ( isset($_SESSION['ziel_id']) ){  // Änderung eines fremden Texts:  // Auflisten der Texte des Benutzers mit der ID $_SESSION[ziel_id']  ...} else {  // Änderung eines eigenen Texts  // Auflisten der Texte des aktuellen Benutzers  ...}// Bearbeiten des ausgewählten Texts...

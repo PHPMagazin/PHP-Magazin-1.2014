@@ -1,0 +1,1 @@
+if ( isset($_SESSION['ziel_id']) ){  // Text für den zuvor ausgewählten Benutzer änderbar speichern  ...}else {  // Fehlermeldung, dass kein Benutzer ausgewählt wurde, ausgeben  ...}

@@ -1,0 +1,1 @@
+if ( isset($_SESSION['target_id']) ){  // Änderung eines fremden Profils  update_profile($_SESSION['target_id']);} else {  // Ändern des Profils des aktuellen Benutzers  update_profile($_SESSION[‘uid']);}
