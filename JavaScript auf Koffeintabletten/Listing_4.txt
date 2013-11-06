@@ -1,0 +1,1 @@
+<script type="text/coffeescript">  @go=->    if not Avar?      alert "Avar existiert nicht"</script>Nach Bearbeitung durch den Transpiler entsteht folgende Abfrage:this.go = function() {  if (!(typeof Avar !== "undefined" && Avar !== null)) {    return alert("Avar existiert nicht");  }};

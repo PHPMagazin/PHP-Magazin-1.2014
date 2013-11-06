@@ -1,0 +1,1 @@
+<script type="text/coffeescript">  class PreciousMetal    constructor: (@name, @weight) ->      inflate: ->        alert "Edelmetall ist Inflationssicher! " + this.name   class MapleLeaf extends PreciousMetal    inflate: ->      alert "Maple Leaf Says"      super  @go=->    philly = new MapleLeaf("Philly", "1OZ")    philly.inflate()</script>

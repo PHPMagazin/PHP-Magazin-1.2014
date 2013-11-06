@@ -1,0 +1,1 @@
+this.go = function() {  var num, result;  num = 10;  result = (function() {    var _results;    _results = [];    while (num -= 1) {      _results.push(num);    }    return _results;  })();  return alert(result);};
